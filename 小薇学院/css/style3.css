@@ -1,0 +1,20 @@
+body, div, p, ul, li{margin: 0; padding: 0}
+body,a,p{font: 12px/1.5 "微软雅黑", normal}
+li{list-style: none}
+h1{font-size: 14px}
+.parent{position: relative; margin: 20px; padding: 20px; background: #eee; overflow: hidden}
+.parent>div,
+.parent>ul{float: left; padding: 20px; background: #fff}
+/*左边*/
+.lt{float: left; width: 160px; overflow: hidden}
+.lt>img{float: left; margin-right: 20px}
+/*中间*/
+/*.md{position: absolute; left: 240px; right: 160px}*/
+.parent>.md{float: none; margin-left: 220px; margin-right: 140px}
+.md p{padding: 10px 0}
+/*右边*/
+.parent>.rt{float: right; width: 80px}
+.rt>img+img{margin-top: 10px}
+
+/*清除浮动*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}

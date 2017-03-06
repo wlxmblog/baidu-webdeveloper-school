@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>任务一：零基础HTML编码</title>
+  <style type="text/css">
+    body,div,h1,ul,li,dl,dd{margin: 0; padding: 0}
+    body{font: 14px/1.5 '黑体','微软雅黑'; background: #ccc}
+    a{text-decoration: none;}
+    span{font-size: 12px}
+    table{border-bottom: 1px solid #999; border-right: 1px solid #999}
+    thead{background: #333; color: #FFF}
+    th,td{border: 1px solid #999; border-right: 0; border-bottom: 0}
+    tr:hover{background: #ccc}
+    .g-hd{height: 50px; padding: 0 20px; line-height: 50px; background: #333}
+    .m-logo{float: left; line-height: 50px}
+    .m-logo>img{vertical-align: middle}
+    .m-nav{float: right}
+    .m-nav>li{float: left; margin-left: 20px}
+    .m-nav>li>a{color: #FFF}
+    .m-nav>li>a:hover{color: #999}
+    .m-nav>li.z-crt>a{color: #999}
+    .m-article{margin: 20px; padding: 25px 15px; border: 2px solid #999; border-left-width: 1px; border-top-width: 1px; background: #FFF}
+    .m-article h2,
+    .m-article span{color: #999}
+    .m-article>p{font-size: 14px; text-indent: 2em}
+    .m-article ul>li{list-style: none; text-indent: 2em}
+    .m-article img{width: 300px}
+    .m-article .writer{text-indent: 0}
+    .m-piclist dl{width: 150px; margin-top: 20px; margin-left: 50px; padding: 10px; border: 1px solid #ccc; text-align: center; text-indent: 0}
+    .m-piclist img{width: 150px}
+    .m-article.side{overflow: hidden;}
+    .m-article.side h1{border-left: 4px solid #ccc; font-size: 16px; text-indent: 2em}
+    .m-article.side form{padding: 20px}
+    .m-article.side form>.form-body{float: right; width: 70%}
+    .m-article.side label{display: inline-block; float: left; width: 115px; margin-right: 10px; text-align: right;}
+    .m-article.side form>p{font-size: 12px; color: #999; margin-left: 125px}
+    .m-article.side form>b,
+    .m-article.side form>select{float: left; font-weight: normal}
+    .m-article.side form>span{font-size: 14px; color: #000}
+    .m-article.side form>input[type=submit]{display: block; width: 100%; height: 50px; background: #00f; border: none; border-radius: 5px; color: #fff; font-size: 16px; font-weight: bold;}
+    .f-cb:after{display:block;visibility:hidden;clear:both;height:0;overflow:hidden;content:'.';}
+  </style>
+</head>
+<body>
+  <div class="g-hd">
+    <h1 class="m-logo"><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png" alt=""></h1>
+    <ul class="m-nav">
+      <li><a href="#">导航链接一</a></li>
+      <li><a href="#">导航链接二</a></li>
+      <li><a href="#">导航链接三</a></li>
+      <li class="z-crt"><a href="#">导航链接四</a></li>
+    </ul>
+  </div>
+  <!-- 文章 -->
+  <div>
+  <!-- 文章1 -->
+    <div class="m-article">
+      <h1>文章一级标题</h1>
+      <h2>文章二级标题</h2>
+      <p class="writer"><span>文章作者</span>&nbsp;<span>文章发表时间</span></p>
+      <p>
+        这是个很长很长的段落，这是个很长很长的段落这是个很长很长的段落，这是个很长很长的段落这是个很长很长的段落，这是个很长很长的段落，换行了<br>
+        这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落
+        <a href="http://ife.baidu.com">这里有一个链接连接到http://ife.baidu.com</a>，这是个很长很长的段落。这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落
+      </p>
+      <img src="https://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/htmlcss.ec85cad580b3bfce.jpg" alt="任务一：零基础HTML编码">
+      <p>
+        这是个很长很长的段落，这是个很长很长的段落，这是个很长很长的段落，这是个很长很长的段落，<a href="http://ife.baidu.com" target="blank">这里有一个链接点击后打开新的窗口连接到http://ife.baidu.com</a>，这是个很长很长的段落。这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落.
+      </p>
+    </div>
+    <!-- 文章2 -->
+    <div class="m-article">
+      <h1>另一篇文章一级标题</h1>
+      <h2>文章二级标题</h2>
+      <p class="writer"><span>文章作者</span>&nbsp;<span>文章发表时间</span></p>
+      <p>
+        这是个很长很长的段落，这是个很长很长的段落这是个很长很长的段落，这是个很长很长的段落这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落
+        这是个很长很长的段落，这是个很长很长的段落
+        <a href="http://ife.baidu.com">这里有一个链接连接到http://ife.baidu.com</a>，这是个很长很长的段落。
+      </p>
+        <img src="https://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/htmlcss.ec85cad580b3bfce.jpg" alt="任务一：零基础HTML编码">
+        <ul>
+          <li>列表项目一</li>
+          <li>列表项目二</li>
+          <li>列表项目三</li>
+        </ul>
+      <!-- 图片 -->
+      <div class="m-piclist">
+        <h1>图片</h1>
+        <dl>
+          <dd>好看的图片</dd>
+          <dd>
+            <img src="https://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/htmlcss.ec85cad580b3bfce.jpg" alt="任务一：零基础HTML编码">
+          </dd>
+        </dl>
+        <dl>
+          <dd>好看的图片</dd>
+          <dd>
+            <img src="https://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/htmlcss.ec85cad580b3bfce.jpg" alt="任务一：零基础HTML编码">
+          </dd>
+        </dl>
+        <dl>
+          <dd>好看的图片</dd>
+          <dd>
+            <img src="https://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/htmlcss.ec85cad580b3bfce.jpg" alt="任务一：零基础HTML编码">
+          </dd>
+        </dl>
+        <dl>
+          <dd>好看的图片</dd>
+          <dd>
+            <img src="https://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/htmlcss.ec85cad580b3bfce.jpg" alt="任务一：零基础HTML编码">
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <!-- 最后一篇文章 -->
+    <div class="m-article">
+      <h1>最后一篇文章一级标题</h1>
+      <h2>文章二级标题</h2>
+      <p class="writer"><span>文章作者</span>&nbsp;<span>文章发表时间</span></p>
+      <p>
+        <ol>
+          <li>排名1</li>
+          <li>排名2</li>
+          <li>排名3</li>
+        </ol>
+      </p>
+      <p>
+        <caption>下面是一个表格</caption>
+        <table width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <td>表头</td>
+              <td>表头</td>
+              <td>表头</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>表格内容单元格</td>
+              <td>表格内容单元格</td>
+              <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+              <td>表格内容单元格</td>
+              <td>表格内容单元格</td>
+              <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+              <td>表格内容单元格</td>
+              <td>表格内容单元格</td>
+              <td><a href="#">操作</a></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>总计</td>
+              <td colspan="2">1000</td>
+            </tr>
+          </tfoot>
+        </table>
+      </p>
+    </div>
+  </div>
+  <!-- 侧栏 -->
+  <aside class="m-article side">
+    <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
+    <form action="/">
+        <div class="form-body">
+          <!-- <h2>注册窗口标题</h2> -->
+          <label for="email">请输入邮箱地址</label>
+          <input type="email" name="email" id="email" placeholder="邮箱Email">
+          <p>邮箱地址请按要求格式输入</p>
+          <label for="password">请输入密码</label>
+          <input type="password" name="password" id="password" placeholder="密码">
+          <p></p>
+          <label for="password2">请重复输入密码</label>
+          <input type="password" name="password2" id="password2" placeholder="确认密码">
+          <p>密码请为6-16位英文数字</p>
+          <label for="sex">性别</label>
+          <b><input type="radio" name="sex" checked>男</b>
+          <b><input type="radio" name="sex">女</b>
+          <p class="f-cb"></p>
+          <label>城市</label>
+          <select name="city" id="city">
+            <option value="北京">北京</option>
+            <option value="成都">成都</option>
+          </select>
+          <p class="f-cb"></p>
+          <label>爱好</label>
+          <input type="checkbox" name="hobby">运动
+          <input type="checkbox" name="hobby">艺术
+          <input type="checkbox" name="hobby">科学
+          <p class="f-cb"></p>
+          <label>个人描述</label>
+          <textarea name="disc" id="disc" cols="80" rows="4" placeholder="输入您的个人描述"></textarea>
+        </div>
+        <input type="submit" value="确认提交">
+    </form>
+  </aside>
+</body>
+</html>
